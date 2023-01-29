@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+}
+
+
+
+ul{
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    
+}
+.product__text{
+    width: 200px;
+}
+span{
+    display: inline-block;
+    padding: 10px;
+}
+
+
+
+
+.product__list{
+    display: flex;
+}
+
+.product__img{
+    width: 200px;
+    height: 200px;
+}
+.product__list li {
+    display: none;
+    display: inline-block;
+}
+.product__hover,.product__percentage{
+    display: none;
+}
